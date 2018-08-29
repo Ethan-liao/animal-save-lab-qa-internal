@@ -1,18 +1,17 @@
 html {
-  background: url(../images/spice-girls.jpg) no-repeat top left;
+  background: url(../images/cliff.jpg) no-repeat top left;
 }
 
-#monkey {
+#bear {
   position: absolute;
-  top: 550px;
-  right: 120px;
+  top: 100px;
+  right: 0;
 }
 
 /* Write your solution here */
 
-@media only screen and (min-width: 406px) and (max-width: 1170px) {    
-  #monkey {   
-    right: 0;   
-    top: 0;   
+@media only screen and (min-width: 1196px) {    
+  #bear {   
+    left: 800px;    
   }   
 }
