@@ -1,12 +1,17 @@
 html {
-  background: url(../images/croc.jpg) no-repeat top left;
+  background: url(../images/cliff.jpg) no-repeat top left;
 }
 
-#ostrich {
+#bear {
   position: absolute;
-  top: 50px;
+  top: 100px;
   right: 0;
 }
 
 /* Write your solution here */
 
+@media only screen and (min-width: 1196px) {    
+  #bear {   
+    left: 800px;    
+  }   
+}
